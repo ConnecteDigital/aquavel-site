@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, MessageCircle, MapPin, Clock, Wrench, Flame, Droplets, Bath, ShoppingCart, Settings } from "lucide-react";
+import { Phone, MessageCircle, MapPin, Clock, Wrench, Flame, Droplets, Bath, ShoppingCart, Settings, Star, Instagram } from "lucide-react";
 
 const Footer = () => {
   const services = [
@@ -82,8 +82,9 @@ const Footer = () => {
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 text-secondary mr-3 flex-shrink-0" />
                 <div>
-                  <div className="text-white font-semibold">Xanxerê-SC</div>
-                  <div className="text-white/60 text-sm">Raio de 100km</div>
+                  <div className="text-white font-semibold">Endereço da Loja</div>
+                  <div className="text-white/60 text-sm">Atanásio Antônio, 61 - sala 01</div>
+                  <div className="text-white/60 text-sm">Centro, Xanxerê - SC, 89820-000</div>
                 </div>
               </div>
             </div>
@@ -103,6 +104,26 @@ const Footer = () => {
               >
                 <a href="https://api.whatsapp.com/send?phone=5549988320945&text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento" target="_blank" rel="noopener noreferrer">
                   WhatsApp
+                </a>
+              </Button>
+              <Button 
+                size="sm" 
+                className="w-full bg-secondary hover:bg-secondary-dark text-white font-semibold"
+                asChild
+              >
+                <a href="https://g.co/kgs/sBYMqom" target="_blank" rel="noopener noreferrer">
+                  <MapPin className="h-4 w-4 mr-2" />
+                  Ver no Google Maps
+                </a>
+              </Button>
+              <Button 
+                size="sm" 
+                className="w-full bg-pink-600 hover:bg-pink-700 text-white font-semibold"
+                asChild
+              >
+                <a href="https://www.instagram.com/aquavel_xxe" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="h-4 w-4 mr-2" />
+                  Instagram
                 </a>
               </Button>
             </div>
