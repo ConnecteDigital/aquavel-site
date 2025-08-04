@@ -16,7 +16,7 @@ const ServicesSection = () => {
       icon: <Flame className="h-8 w-8" />,
       title: "Manutenção de Aquecedores a Gás",
       description: "Serviço especializado em aquecedores a gás, incluindo limpeza, regulagem e substituição de peças.",
-      image: "/lovable-uploads/314dc6fa-dfa5-4d7c-817a-3d83c5eaea0f.png",
+      image: "/lovable-uploads/aquecedor-gas-novo.jpeg",
       features: ["Limpeza interna", "Regulagem de temperatura", "Troca de peças", "Teste de segurança"]
     },
     {
@@ -28,7 +28,7 @@ const ServicesSection = () => {
     },
     {
       icon: <Droplets className="h-8 w-8" />,
-      title: "Manutenção de Tubulação de Água Quente",
+      title: "Manutenção e instalação de tubulações para água quente",
       description: "Reparo e manutenção completa de sistemas de distribuição de água quente residencial e comercial.",
       image: "/lovable-uploads/8466d0f7-5297-4af3-a282-c7c4b683bce2.png",
       features: ["Desentupimento", "Troca de tubulações", "Isolamento térmico", "Pressurização"]
@@ -42,7 +42,7 @@ const ServicesSection = () => {
     },
     {
       icon: <Settings className="h-8 w-8" />,
-      title: "Instalação de Aquecedores Solar e a Gás",
+      title: "Instalação e manutenção de aquecimento solar e trocador de calor elétrico para piscina",
       description: "Instalação profissional com projeto personalizado e adequação às normas técnicas vigentes.",
       image: "/lovable-uploads/422b0b1e-f5ec-481e-9ed8-e347169b7303.png",
       features: ["Projeto personalizado", "Instalação certificada", "Teste completo", "Manual de operação"]
